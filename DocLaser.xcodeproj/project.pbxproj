@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0393579163FF25A0004F956 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0393578163FF25A0004F956 /* UIKit.framework */; };
+		D039357B163FF25A0004F956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D039357A163FF25A0004F956 /* Foundation.framework */; };
+		D039357D163FF25A0004F956 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D039357C163FF25A0004F956 /* CoreGraphics.framework */; };
+		D0393583163FF25A0004F956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0393581163FF25A0004F956 /* InfoPlist.strings */; };
+		D0393585163FF25A0004F956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0393584163FF25A0004F956 /* main.m */; };
+		D0393589163FF25A0004F956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0393588163FF25A0004F956 /* AppDelegate.m */; };
+		D039358B163FF25A0004F956 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D039358A163FF25A0004F956 /* Default.png */; };
+		D039358D163FF25A0004F956 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D039358C163FF25A0004F956 /* Default@2x.png */; };
+		D039358F163FF25A0004F956 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D039358E163FF25A0004F956 /* Default-568h@2x.png */; };
+		D039359D163FF73E0004F956 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D039359C163FF73E0004F956 /* EAGLView.m */; };
+		D0A8E6C516415A2C00621F34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E6C416415A2C00621F34 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0393574163FF25A0004F956 /* DocLaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocLaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0393578163FF25A0004F956 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D039357A163FF25A0004F956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D039357C163FF25A0004F956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0393580163FF25A0004F956 /* DocLaser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DocLaser-Info.plist"; sourceTree = "<group>"; };
+		D0393582163FF25A0004F956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0393584163FF25A0004F956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0393586163FF25A0004F956 /* DocLaser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocLaser-Prefix.pch"; sourceTree = "<group>"; };
+		D0393587163FF25A0004F956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0393588163FF25A0004F956 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D039358A163FF25A0004F956 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D039358C163FF25A0004F956 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D039358E163FF25A0004F956 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D039359B163FF73E0004F956 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = classes/EAGLView.h; sourceTree = "<group>"; };
+		D039359C163FF73E0004F956 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAGLView.m; path = classes/EAGLView.m; sourceTree = "<group>"; };
+		D0A8E6C316415A2C00621F34 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = classes/RootViewController.h; sourceTree = "<group>"; };
+		D0A8E6C416415A2C00621F34 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = classes/RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0393571163FF2590004F956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0393579163FF25A0004F956 /* UIKit.framework in Frameworks */,
+				D039357B163FF25A0004F956 /* Foundation.framework in Frameworks */,
+				D039357D163FF25A0004F956 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0393569163FF2590004F956 = {
+			isa = PBXGroup;
+			children = (
+				D039357E163FF25A0004F956 /* DocLaser */,
+				D0393577163FF25A0004F956 /* Frameworks */,
+				D0393575163FF25A0004F956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0393575163FF25A0004F956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0393574163FF25A0004F956 /* DocLaser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0393577163FF25A0004F956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0393578163FF25A0004F956 /* UIKit.framework */,
+				D039357A163FF25A0004F956 /* Foundation.framework */,
+				D039357C163FF25A0004F956 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D039357E163FF25A0004F956 /* DocLaser */ = {
+			isa = PBXGroup;
+			children = (
+				D039359E163FF74B0004F956 /* app core */,
+				D039357F163FF25A0004F956 /* Supporting Files */,
+			);
+			path = DocLaser;
+			sourceTree = "<group>";
+		};
+		D039357F163FF25A0004F956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0393580163FF25A0004F956 /* DocLaser-Info.plist */,
+				D0393581163FF25A0004F956 /* InfoPlist.strings */,
+				D0393584163FF25A0004F956 /* main.m */,
+				D0393586163FF25A0004F956 /* DocLaser-Prefix.pch */,
+				D039358A163FF25A0004F956 /* Default.png */,
+				D039358C163FF25A0004F956 /* Default@2x.png */,
+				D039358E163FF25A0004F956 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D039359E163FF74B0004F956 /* app core */ = {
+			isa = PBXGroup;
+			children = (
+				D0393587163FF25A0004F956 /* AppDelegate.h */,
+				D0393588163FF25A0004F956 /* AppDelegate.m */,
+				D0A8E6C316415A2C00621F34 /* RootViewController.h */,
+				D0A8E6C416415A2C00621F34 /* RootViewController.m */,
+				D039359B163FF73E0004F956 /* EAGLView.h */,
+				D039359C163FF73E0004F956 /* EAGLView.m */,
+			);
+			name = "app core";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0393573163FF2590004F956 /* DocLaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0393592163FF25A0004F956 /* Build configuration list for PBXNativeTarget "DocLaser" */;
+			buildPhases = (
+				D0393570163FF2590004F956 /* Sources */,
+				D0393571163FF2590004F956 /* Frameworks */,
+				D0393572163FF2590004F956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocLaser;
+			productName = DocLaser;
+			productReference = D0393574163FF25A0004F956 /* DocLaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D039356B163FF2590004F956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Henderson";
+			};
+			buildConfigurationList = D039356E163FF2590004F956 /* Build configuration list for PBXProject "DocLaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0393569163FF2590004F956;
+			productRefGroup = D0393575163FF25A0004F956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0393573163FF2590004F956 /* DocLaser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0393572163FF2590004F956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0393583163FF25A0004F956 /* InfoPlist.strings in Resources */,
+				D039358B163FF25A0004F956 /* Default.png in Resources */,
+				D039358D163FF25A0004F956 /* Default@2x.png in Resources */,
+				D039358F163FF25A0004F956 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0393570163FF2590004F956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0393585163FF25A0004F956 /* main.m in Sources */,
+				D0393589163FF25A0004F956 /* AppDelegate.m in Sources */,
+				D039359D163FF73E0004F956 /* EAGLView.m in Sources */,
+				D0A8E6C516415A2C00621F34 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0393581163FF25A0004F956 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0393582163FF25A0004F956 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0393590163FF25A0004F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0393591163FF25A0004F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0393593163FF25A0004F956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocLaser/DocLaser-Prefix.pch";
+				INFOPLIST_FILE = "DocLaser/DocLaser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0393594163FF25A0004F956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocLaser/DocLaser-Prefix.pch";
+				INFOPLIST_FILE = "DocLaser/DocLaser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D039356E163FF2590004F956 /* Build configuration list for PBXProject "DocLaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0393590163FF25A0004F956 /* Debug */,
+				D0393591163FF25A0004F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0393592163FF25A0004F956 /* Build configuration list for PBXNativeTarget "DocLaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0393593163FF25A0004F956 /* Debug */,
+				D0393594163FF25A0004F956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D039356B163FF2590004F956 /* Project object */;
+}
